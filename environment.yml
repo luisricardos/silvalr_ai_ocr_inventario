@@ -1,0 +1,20 @@
+name: azure-sdk-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10.0  # specify your Python version
+  - pillow=10.1.0
+  - pandas=2.1.2
+  - scikit-learn=1.3.2
+  - ipykernel
+  - jupyterlab
+  - notebook
+  - pip
+  - pip:
+      - azure-ai-formrecognizer  # example package for OCR using Azure AI
+      - azure-cognitiveservices-vision-computervision  # example package for OCR using Azure Cognitive Services
+      - numpy
+      - pandas
+      - matplotlib
+      - opencv-python  # for handling images if needed for OCR

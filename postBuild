@@ -1,0 +1,3 @@
+echo "Starting postBuild script..."
+python -m ipykernel install --user --name=azure-sdk-env
+echo "postBuild script completed successfully."
